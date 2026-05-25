@@ -1,0 +1,2 @@
+# myjavascript..
+learning javascript
