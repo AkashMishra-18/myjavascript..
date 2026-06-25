@@ -15,4 +15,8 @@ map.set('USA', "united state of america");
 map.set('USA', "united state of america")
 map.set('USA', "united state of america")
 
-console.log(map)
+// console.log(map)
+
+for (const [key,value] of map) {
+    console.log(key + " :- " + value) ;   
+}
