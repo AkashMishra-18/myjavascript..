@@ -4,17 +4,17 @@ const mynum =[1,2,3]
 //     return accumulator + currentValue;
 // }, 0)
 
-const mytotal = mynum.reduce((acc , cuuval) => (acc + cuuval),0)
-console.log(mytotal)
+// const mytotal = mynum.reduce((acc , cuuval) => (acc + cuuval),0)
+// console.log(mytotal)
 
-const shoppingcart = [
-    {item: "laptop", price: 1000},
-    {item: "phone", price: 500},
-    {item: "tablet", price: 750}
-    ]
+// const shoppingcart = [
+//     {item: "laptop", price: 1000},
+//     {item: "phone", price: 500},
+//     {item: "tablet", price: 750}
+//     ]
 
-const totalshoppingbill  = shoppingcart.reduce((acc, item) => {
-    console.log(`acc: ${acc}, item: ${item.price}`);
-    return acc + item.price;
-}, 0)
-console.log(totalshoppingbill)
+// const totalshoppingbill  = shoppingcart.reduce((acc, item) => {
+//     console.log(`acc: ${acc}, item: ${item.price}`);
+//     return acc + item.price;
+// }, 0)
+// console.log(totalshoppingbill)
